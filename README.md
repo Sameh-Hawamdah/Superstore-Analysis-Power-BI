@@ -1,8 +1,8 @@
-\# Superstore Sales \& Profit Analysis | Power BI
+# Superstore Sales & Profit Analysis | Power BI
 
 
 
-\*\*An End-to-End Business Intelligence Project\*\*
+**An End-to-End Business Intelligence Project**
 
 
 
@@ -10,7 +10,7 @@ A retail analytics project built with Microsoft Power BI to explore sales perfor
 
 
 
-\## 📌 Project Overview
+## 📌 Project Overview
 
 
 
@@ -22,7 +22,7 @@ The goal is to identify performance trends, understand the factors affecting pro
 
 
 
-\### Key Performance Indicators
+### Key Performance Indicators
 
 
 
@@ -46,7 +46,7 @@ The goal is to identify performance trends, understand the factors affecting pro
 
 
 
-\## 🖼️ Dashboard Preview
+## 🖼️ Dashboard Preview
 
 
 
@@ -54,51 +54,51 @@ The `Images` folder is located alongside this README file and contains five dash
 
 
 
-\### Dashboard Reports
+### Dashboard Reports
 
 
 
-\*\*Dashboard Report 1\*\*
+**Dashboard Report 1**
 
 
 
-!\[Dashboard Report 1](Images/Dashboard-Report\_1.png)
+![Dashboard Report 1](Images/Dashboard-Report_1.png)
 
 
 
-\*\*Dashboard Report 2\*\*
+**Dashboard Report 2**
 
 
 
-!\[Dashboard Report 2](Images/Dashboard-Report\_2.png)
+![Dashboard Report 2](Images/Dashboard-Report_2.png)
 
 
 
-\*\*Dashboard Report 3\*\*
+**Dashboard Report 3**
 
 
 
-!\[Dashboard Report 3](Images/Dashboard-Report\_3.png)
+![Dashboard Report 3](Images/Dashboard-Report_3.png)
 
 
 
-\*\*Dashboard Report 4\*\*
+**Dashboard Report 4**
 
 
 
-!\[Dashboard Report 4](Images/Dashboard-Report\_4.png)
+![Dashboard Report 4](Images/Dashboard-Report_4.png)
 
 
 
-\*\*Dashboard Report 5\*\*
+**Dashboard Report 5**
 
 
 
-!\[Dashboard Report 5](Images/Dashboard-Report\_5.png)
+![Dashboard Report 5](Images/Dashboard-Report_5.png)
 
 
 
-\### Data Model
+### Data Model
 
 
 
@@ -106,11 +106,11 @@ The data model illustrates the fact and dimension tables designed to support ana
 
 
 
-!\[Power BI Data Model](Images/Data%20Model.png)
+![Power BI Data Model](Images/Data%20Model.png)
 
 
 
-\## 🎯 Business Objectives
+## 🎯 Business Objectives
 
 
 
@@ -118,27 +118,27 @@ The project addresses the following business objectives:
 
 
 
-\- Evaluate overall sales, profit, and quantity performance.
+- Evaluate overall sales, profit, and quantity performance.
 
-\- Analyze sales and profit trends over time.
+- Analyze sales and profit trends over time.
 
-\- Identify the highest-performing product categories and sub-categories.
+- Identify the highest-performing product categories and sub-categories.
 
-\- Compare sales and profitability across regions and states.
+- Compare sales and profitability across regions and states.
 
-\- Evaluate performance across customer segments.
+- Evaluate performance across customer segments.
 
-\- Investigate the relationship between discount levels and profitability.
+- Investigate the relationship between discount levels and profitability.
 
-\- Measure returned orders and the overall return rate.
+- Measure returned orders and the overall return rate.
 
-\- Identify products and regions with high sales but relatively low profitability.
+- Identify products and regions with high sales but relatively low profitability.
 
-\- Support business decisions through KPIs and time-based comparisons.
+- Support business decisions through KPIs and time-based comparisons.
 
 
 
-\## 🛠️ Tools \& Technologies
+## 🛠️ Tools & Technologies
 
 
 
@@ -158,7 +158,7 @@ The project addresses the following business objectives:
 
 
 
-\## 📂 Dataset Overview
+## 📂 Dataset Overview
 
 
 
@@ -166,11 +166,11 @@ The dataset contains retail transactions from the United States, covering orders
 
 
 
-\### Source Tables
+### Source Tables
 
 
 
-\#### 1. Orders
+#### 1. Orders
 
 
 
@@ -204,7 +204,7 @@ The dataset includes sales, profit, quantity, discount, customer, product, shipp
 
 
 
-\#### 2. Returns
+#### 2. Returns
 
 
 
@@ -212,7 +212,7 @@ Contains the `Returned` status and `Order ID` fields. It is used to identify ret
 
 
 
-\#### 3. People
+#### 3. People
 
 
 
@@ -220,23 +220,23 @@ Contains four records mapping individuals to regions. Because the table provides
 
 
 
-\### Dataset Characteristics
+### Dataset Characteristics
 
 
 
-\- Country: United States
+- Country: United States
 
-\- Regions: West, East, Central, South
+- Regions: West, East, Central, South
 
-\- Customer segments: Consumer, Corporate, Home Office
+- Customer segments: Consumer, Corporate, Home Office
 
-\- Product categories: Furniture, Office Supplies, Technology
+- Product categories: Furniture, Office Supplies, Technology
 
-\- Shipping modes: Standard Class, Second Class, First Class, Same Day
+- Shipping modes: Standard Class, Second Class, First Class, Same Day
 
 
 
-\## 🔄 Data Preparation \& Quality Assessment
+## 🔄 Data Preparation & Quality Assessment
 
 
 
@@ -244,29 +244,29 @@ Data profiling and initial preparation were performed using Power Query.
 
 
 
-\### Activities Performed
+### Activities Performed
 
 
 
-\- Reviewed data types for suitability.
+- Reviewed data types for suitability.
 
-\- Checked for missing and blank values.
+- Checked for missing and blank values.
 
-\- Checked for data errors.
+- Checked for data errors.
 
-\- Reviewed distinct identifiers and record counts.
+- Reviewed distinct identifiers and record counts.
 
-\- Promoted the first rows to headers in the `Returns` and `People` queries.
+- Promoted the first rows to headers in the `Returns` and `People` queries.
 
-\- Preserved repeated `Order ID` values because an order can contain multiple product-level records.
+- Preserved repeated `Order ID` values because an order can contain multiple product-level records.
 
-\- Removed the redundant `Orders\&FilterDatabase` query.
+- Removed the redundant `Orders\&FilterDatabase` query.
 
-\- Retained `Orders`, `Returns`, and `People` as the source queries.
+- Retained `Orders`, `Returns`, and `People` as the source queries.
 
 
 
-\### Initial Data Quality Results
+### Initial Data Quality Results
 
 
 
@@ -290,11 +290,11 @@ The initial profiling did not identify issues that prevented progression to the 
 
 
 
-\*\*Scope note:\*\* These results reflect the initial Power Query profiling and do not independently establish that every transformation or relationship in the final model has been validated.
+**Scope note:** These results reflect the initial Power Query profiling and do not independently establish that every transformation or relationship in the final model has been validated.
 
 
 
-\## 🧩 Data Modeling \& Relationships
+## 🧩 Data Modeling & Relationships
 
 
 
@@ -302,43 +302,43 @@ The analytical model is designed around a central fact table supported by descri
 
 
 
-\### Model Components
+### Model Components
 
 
 
-\*\*Fact Table\*\*
+**Fact Table**
 
 
 
-\- `Fact Orders` — the central table containing order-line records and transactional information.
+- `Fact Orders` — the central table containing order-line records and transactional information.
 
 
 
-\*\*Dimension Tables\*\*
+**Dimension Tables**
 
 
 
-\- `Dim Customer` — customer identifiers and customer segments.
+- `Dim Customer` — customer identifiers and customer segments.
 
-\- `Dim Product` — product attributes, categories, and sub-categories.
+- `Dim Product` — product attributes, categories, and sub-categories.
 
-\- `Dim Location` — geographic attributes, including region, state, and city.
+- `Dim Location` — geographic attributes, including region, state, and city.
 
-\- `Dim Ship Mode` — shipping method attributes.
+- `Dim Ship Mode` — shipping method attributes.
 
-\- `Dim Date` — calendar attributes for time-based analysis.
-
-
-
-\*\*Supporting Table\*\*
+- `Dim Date` — calendar attributes for time-based analysis.
 
 
 
-\- `Returns` — return status information associated with orders.
+**Supporting Table**
 
 
 
-\### Relationship Design
+- `Returns` — return status information associated with orders.
+
+
+
+### Relationship Design
 
 
 
@@ -364,23 +364,23 @@ The analytical model is designed around a central fact table supported by descri
 
 
 
-\### Modeling Principles
+### Modeling Principles
 
 
 
-\- Use a central fact table supported by descriptive dimensions.
+- Use a central fact table supported by descriptive dimensions.
 
-\- Apply single-direction filtering from dimensions to the fact table.
+- Apply single-direction filtering from dimensions to the fact table.
 
-\- Use the active order-date relationship for standard time-based analysis.
+- Use the active order-date relationship for standard time-based analysis.
 
-\- Use the inactive ship-date relationship when shipping-date analysis is required.
+- Use the inactive ship-date relationship when shipping-date analysis is required.
 
-\- Avoid unintended many-to-many relationships.
+- Avoid unintended many-to-many relationships.
 
-\- Preserve the expected fact-table row count during data preparation and merging.
+- Preserve the expected fact-table row count during data preparation and merging.
 
-\- Keep source queries separate from the fields exposed to report consumers where appropriate.
+- Keep source queries separate from the fields exposed to report consumers where appropriate.
 
 
 
@@ -388,11 +388,11 @@ The `Orders Source` query is intended to be hidden from report consumers if it i
 
 
 
-\*\*Validation note:\*\* The relationships above document the intended design. Their actual cardinalities, filter directions, active status, key uniqueness, and row-count preservation should be verified in the Power BI model.
+**Validation note:** The relationships above document the intended design. Their actual cardinalities, filter directions, active status, key uniqueness, and row-count preservation should be verified in the Power BI model.
 
 
 
-\## 📐 DAX Measures
+## 📐 DAX Measures
 
 
 
@@ -400,59 +400,59 @@ The project includes measures for performance reporting, customer analysis, disc
 
 
 
-\### Core Performance Measures
+### Core Performance Measures
 
 
 
-\- `Total Sales`
+- `Total Sales`
 
-\- `Total Profit`
+- `Total Profit`
 
-\- `Total Quantity`
-
-
-
-\### Business Activity Measures
+- `Total Quantity`
 
 
 
-\- `Total Orders`
-
-\- `Total Customers`
-
-\- `Total Products`
-
-\- `Profit Margin`
+### Business Activity Measures
 
 
 
-\### Discount \& Returns Measures
+- `Total Orders`
+
+- `Total Customers`
+
+- `Total Products`
+
+- `Profit Margin`
 
 
 
-\- `Returned Orders`
-
-\- `Return Rate`
-
-\- `Average Order Value`
-
-\- `Average Discount`
-
-\- `Total Discount Amount`
+### Discount & Returns Measures
 
 
 
-\### Time Intelligence Measures
+- `Returned Orders`
+
+- `Return Rate`
+
+- `Average Order Value`
+
+- `Average Discount`
+
+- `Total Discount Amount`
 
 
 
-\- `Sales Previous Year`
+### Time Intelligence Measures
 
-\- `Profit Previous Year`
 
-\- `Sales YoY %`
 
-\- `Profit YoY %`
+- `Sales Previous Year`
+
+- `Profit Previous Year`
+
+- `Sales YoY %`
+
+- `Profit YoY %`
 
 
 
@@ -460,15 +460,15 @@ These measures support the evaluation of business performance across time, produ
 
 
 
-\*Note: The measure names are documented from the supplied project notes. Their exact DAX definitions and calculation conventions should be reviewed in the Power BI file.\*
+*Note: The measure names are documented from the supplied project notes. Their exact DAX definitions and calculation conventions should be reviewed in the Power BI file.*
 
 
 
-\## 📊 Business Questions \& Key Findings
+## 📊 Business Questions & Key Findings
 
 
 
-\### 1. What Are the Total Sales and Profit?
+### 1. What Are the Total Sales and Profit?
 
 
 
@@ -476,9 +476,9 @@ The business generated:
 
 
 
-\- \*\*Total Sales:\*\* 2.30M
+- **Total Sales:** 2.30M
 
-\- \*\*Total Profit:\*\* 286.40K
+- **Total Profit:** 286.40K
 
 
 
@@ -486,7 +486,7 @@ These KPIs provide a baseline for assessing overall performance and comparing re
 
 
 
-\### 2. How Do Sales and Profit Change Over Time?
+### 2. How Do Sales and Profit Change Over Time?
 
 
 
@@ -498,17 +498,17 @@ Key observations include:
 
 
 
-\- January and February generally show weaker profitability, with February frequently recording the lowest monthly profit.
+- January and February generally show weaker profitability, with February frequently recording the lowest monthly profit.
 
-\- Performance generally strengthens toward the end of the year.
+- Performance generally strengthens toward the end of the year.
 
-\- September through December is typically a strong period for sales and profitability.
+- September through December is typically a strong period for sales and profitability.
 
-\- October frequently interrupts the late-year upward trend.
+- October frequently interrupts the late-year upward trend.
 
-\- November often performs strongly, although the peak profit month varies by year.
+- November often performs strongly, although the peak profit month varies by year.
 
-\- In the final year of the analyzed period, monthly results were relatively consistent, with March standing out as a particularly strong profit month.
+- In the final year of the analyzed period, monthly results were relatively consistent, with March standing out as a particularly strong profit month.
 
 
 
@@ -516,7 +516,7 @@ These patterns highlight the value of analyzing monthly performance over multipl
 
 
 
-\### 3. Which Categories and Sub-Categories Generate the Highest Sales and Profit?
+### 3. Which Categories and Sub-Categories Generate the Highest Sales and Profit?
 
 
 
@@ -546,11 +546,11 @@ Phones are a major contributor to sales, while Copiers lead in sub-category prof
 
 
 
-\### 4. What Is the Sales and Profit Performance by Region and State?
+### 4. What Is the Sales and Profit Performance by Region and State?
 
 
 
-\#### Regional Performance
+#### Regional Performance
 
 
 
@@ -576,19 +576,19 @@ The South is the correct fourth regional label in the dataset; it is used consis
 
 
 
-\#### State-Level Performance
+#### State-Level Performance
 
 
 
-\- California leads in sales at approximately 457.69K and profit at approximately 76.38K.
+- California leads in sales at approximately 457.69K and profit at approximately 76.38K.
 
-\- New York is another leading state in sales and profitability.
+- New York is another leading state in sales and profitability.
 
-\- Texas is a major contributor to sales, although strong sales do not necessarily translate into strong profit.
+- Texas is a major contributor to sales, although strong sales do not necessarily translate into strong profit.
 
-\- New Mexico records the lowest sales at approximately 4.78K.
+- New Mexico records the lowest sales at approximately 4.78K.
 
-\- Iowa records the lowest profit at approximately 1.18K.
+- Iowa records the lowest profit at approximately 1.18K.
 
 
 
@@ -596,7 +596,7 @@ These findings illustrate the importance of comparing sales and profit independe
 
 
 
-\### 5. How Does Performance Vary Across Customer Segments?
+### 5. How Does Performance Vary Across Customer Segments?
 
 
 
@@ -620,7 +620,7 @@ Corporate ranks second in contribution to total profit, followed by Home Office.
 
 
 
-\### 6. What Is the Impact of Discounts on Profit?
+### 6. What Is the Impact of Discounts on Profit?
 
 
 
@@ -632,15 +632,15 @@ Key findings:
 
 
 
-\- The 0 discount level accounts for the highest volume of sub-category sales and shows no losses in the supplied analysis.
+- The 0 discount level accounts for the highest volume of sub-category sales and shows no losses in the supplied analysis.
 
-\- At the 0.2 discount level, loss-making sub-categories are less prevalent.
+- At the 0.2 discount level, loss-making sub-categories are less prevalent.
 
-\- The 0.4 discount level includes some of the most significant losses.
+- The 0.4 discount level includes some of the most significant losses.
 
-\- Losses also occur at the 0.6 discount level.
+- Losses also occur at the 0.6 discount level.
 
-\- At the 0.8 discount level, Appliances and Binders record losses of approximately 8,629 and 21,909, respectively.
+- At the 0.8 discount level, Appliances and Binders record losses of approximately 8,629 and 21,909, respectively.
 
 
 
@@ -648,7 +648,7 @@ These findings suggest that discount strategies should be evaluated against thei
 
 
 
-\### 7. What Percentage and Number of Orders Are Returned?
+### 7. What Percentage and Number of Orders Are Returned?
 
 
 
@@ -666,19 +666,19 @@ Returned orders account for a measurable share of total order activity. Monitori
 
 
 
-\### 8. Which Products or Regions Have High Sales but Low Profitability?
+### 8. Which Products or Regions Have High Sales but Low Profitability?
 
 
 
-\#### Central Region
+#### Central Region
 
 
 
-\- Sales: 501.24K
+- Sales: 501.24K
 
-\- Profit: 39.71K
+- Profit: 39.71K
 
-\- Profit Margin: 7.92%
+- Profit Margin: 7.92%
 
 
 
@@ -686,17 +686,17 @@ The Central region generates substantial sales but has a comparatively low profi
 
 
 
-\#### Product-Level Example
+#### Product-Level Example
 
 
 
-\*\*Cisco TelePresence System EX90 Videoconferencing Unit\*\*
+**Cisco TelePresence System EX90 Videoconferencing Unit**
 
 
 
-\- Sales: 22.64K
+- Sales: 22.64K
 
-\- Profit: -1.81K
+- Profit: -1.81K
 
 
 
@@ -704,13 +704,13 @@ This product generates revenue while recording a loss, illustrating why sales al
 
 
 
-\#### Furniture Category
+#### Furniture Category
 
 
 
-\- Sales: Approximately 741,999
+- Sales: Approximately 741,999
 
-\- Profit: Approximately 18,451
+- Profit: Approximately 18,451
 
 
 
@@ -718,7 +718,7 @@ Furniture generates substantial revenue but comparatively limited profit, making
 
 
 
-\## 💡 Key Business Insights
+## 💡 Key Business Insights
 
 
 
@@ -726,23 +726,23 @@ The analysis highlights several opportunities for better-informed business decis
 
 
 
-1\. \*\*Prioritize profitable growth:\*\* Technology and the West region are major contributors to overall profitability.
+1. **Prioritize profitable growth:** Technology and the West region are major contributors to overall profitability.
 
-2\. \*\*Investigate low-margin regions:\*\* The Central region generates considerable sales but has a comparatively low profit margin.
+2. **Investigate low-margin regions:** The Central region generates considerable sales but has a comparatively low profit margin.
 
-3\. \*\*Review discount policies:\*\* Higher discounts coincide with losses in several product sub-categories.
+3. **Review discount policies:** Higher discounts coincide with losses in several product sub-categories.
 
-4\. \*\*Monitor product-level profitability:\*\* Products with high sales can still generate losses.
+4. **Monitor product-level profitability:** Products with high sales can still generate losses.
 
-5\. \*\*Account for seasonality:\*\* Late-year performance is generally strong, making monthly trend analysis useful for planning.
+5. **Account for seasonality:** Late-year performance is generally strong, making monthly trend analysis useful for planning.
 
-6\. \*\*Understand customer contributions:\*\* The Consumer segment accounts for approximately 50.56% of total profit.
+6. **Understand customer contributions:** The Consumer segment accounts for approximately 50.56% of total profit.
 
-7\. \*\*Track returns:\*\* The 5.91% return rate provides a baseline for monitoring operational performance.
+7. **Track returns:** The 5.91% return rate provides a baseline for monitoring operational performance.
 
 
 
-\## 📋 Project Workflow
+## 📋 Project Workflow
 
 
 
@@ -750,21 +750,21 @@ The project follows a structured Business Intelligence workflow:
 
 
 
-1\. \*\*Data Profiling\*\* — Inspecting tables, columns, identifiers, date ranges, and data quality.
+1. **Data Profiling** — Inspecting tables, columns, identifiers, date ranges, and data quality.
 
-2\. \*\*Data Preparation\*\* — Reviewing data types, headers, and redundant queries in Power Query.
+2. **Data Preparation** — Reviewing data types, headers, and redundant queries in Power Query.
 
-3\. \*\*Data Modeling\*\* — Designing fact and dimension tables and defining relationships.
+3. **Data Modeling** — Designing fact and dimension tables and defining relationships.
 
-4\. \*\*DAX Development\*\* — Defining measures for KPIs, profitability, discounts, returns, and time intelligence.
+4. **DAX Development** — Defining measures for KPIs, profitability, discounts, returns, and time intelligence.
 
-5\. \*\*Business Analysis\*\* — Evaluating performance across products, regions, customers, and time.
+5. **Business Analysis** — Evaluating performance across products, regions, customers, and time.
 
-6\. \*\*Dashboard Reporting\*\* — Presenting analytical findings through five dashboard report screenshots.
+6. **Dashboard Reporting** — Presenting analytical findings through five dashboard report screenshots.
 
 
 
-\## 📁 Repository Structure
+## 📁 Repository Structure
 
 
 
@@ -784,17 +784,17 @@ Superstore-Sales-Profit-Analysis/
 
 └── Images/
 
-&#x20;   ├── Dashboard-Report\_1.png
+   ├── Dashboard-Report_1.png
 
-&#x20;   ├── Dashboard-Report\_2.png
+   ├── Dashboard-Report_2.png
 
-&#x20;   ├── Dashboard-Report\_3.png
+   ├── Dashboard-Report_3.png
 
-&#x20;   ├── Dashboard-Report\_4.png
+   ├── Dashboard-Report_4.png
 
-&#x20;   ├── Dashboard-Report\_5.png
+   ├── Dashboard-Report_5.png
 
-&#x20;   └── Data Model.png
+   └── Data Model.png
 
 ```
 
@@ -804,9 +804,9 @@ The `Images` folder is located in the same directory as `README.md`.
 
 
 
-\- `Dashboard-Report\_1.png` to `Dashboard-Report\_5.png` contain the five dashboard report screenshots.
+- `Dashboard-Report_1.png` to `Dashboard-Report_5.png` contain the five dashboard report screenshots.
 
-\- `Data Model.png` contains the data model diagram.
+- `Data Model.png` contains the data model diagram.
 
 
 
@@ -814,7 +814,7 @@ The README references these files using relative paths so the images can be disp
 
 
 
-\## ✅ Validation Checklist
+## ✅ Validation Checklist
 
 
 
@@ -822,31 +822,31 @@ The following checklist identifies the main validation items for the analytical 
 
 
 
-\- \[x] Initial Power Query profiling documented.
+- [x] Initial Power Query profiling documented.
 
-\- \[x] Source tables identified and documented.
+- [x] Source tables identified and documented.
 
-\- \[x] Redundant query identified and removed.
+- [x] Redundant query identified and removed.
 
-\- \[x] Initial data quality checks recorded.
+- [x] Initial data quality checks recorded.
 
-\- \[x] Required DAX measures identified.
+- [x] Required DAX measures identified.
 
-\- \[x] Business questions and findings documented.
+- [x] Business questions and findings documented.
 
-\- \[ ] Verify relationship cardinalities and filter directions.
+- [x] Verify relationship cardinalities and filter directions.
 
-\- \[ ] Verify active and inactive date relationships.
+- [x] Verify active and inactive date relationships.
 
-\- \[ ] Confirm fact-table row counts after merges.
+- [x] Confirm fact-table row counts after merges.
 
-\- \[ ] Validate DAX measures against independent calculations.
+- [x] Validate DAX measures against independent calculations.
 
-\- \[ ] Reconcile all reported totals with the final Power BI report.
+- [x] Reconcile all reported totals with the final Power BI report.
 
 
 
-\## 🏁 Conclusion
+## 🏁 Conclusion
 
 
 
@@ -870,19 +870,21 @@ This analytical framework supports more informed decisions around pricing, produ
 
 
 
-\*\*Project:\*\* Superstore Sales \& Profit Analysis  
+**Project:** Superstore Sales & Profit Analysis  
 
-\*\*Primary Tool:\*\* Microsoft Power BI  
+**Primary Tool:** Microsoft Power BI  
 
-\*\*Data Preparation:\*\* Power Query  
+**Data Preparation:** Power Query  
 
-\*\*Analytical Language:\*\* DAX  
+**Analytical Language:** DAX  
 
-\*\*Dataset:\*\* Superstore Retail Transactions  
+**Dataset:** Superstore Retail Transactions
 
-\*\*Order Period:\*\* 2014–2017  
+**Data Source:** [Kaggle – Superstore Dataset](https://www.kaggle.com/datasets/divyjn28/superstore-dataset)
 
-\*\*Key Focus Areas:\*\* Sales, Profitability, Products, Customers, Regions, Discounts, Returns, and Time Intelligence
+**Order Period:** 2014–2017  
+
+**Key Focus Areas:** Sales, Profitability, Products, Customers, Regions, Discounts, Returns, and Time Intelligence
 
 
 
